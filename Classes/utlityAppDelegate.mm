@@ -33,7 +33,7 @@
 	[aController release];
 	
     mainViewController.view.frame = [UIScreen mainScreen].applicationFrame;
-	[window addSubview:[mainViewController view]];
+    [window setRootViewController:mainViewController];
     [window makeKeyAndVisible];
 }
 
